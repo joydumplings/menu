@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta 設定：確保手機排版正確，並允許顧客雙指放大畫面檢視菜單小字 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>美味小吃 - 線上菜單</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all">
+    <style>
+        /* 清除瀏覽器預設邊距，讓網頁看起來像原生 App */
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* 質感深黑背景，減少眼睛疲勞，且讓菜單更顯眼 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* 菜單圖片置中、寬度自動適應手機螢幕 */
+        .menu-container {
+            width: 100%;
+            max-width: 600px; /* 限制平板或電腦瀏覽時的最大寬度，避免圖片拉太胖 */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0;
+            padding: 0;
+            /* 防止多圖拼接時出現細微白線 */
+            vertical-align: bottom; 
+        }
+
+        /* 頁尾微型提示（非必要，可依喜好刪除） */
+        .footer-text {
+            color: #888888;
+            font-size: 12px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 20px 0;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <!-- 💡 圖片放置區：有幾張菜單圖，就依序複製幾行 img 標籤 -->
+        <!-- loading="lazy" 是手機秒開的關鍵！手指滑到哪，圖片才會讀取到哪，非常省流量 -->
+        <img class="menu-img" src="menu1.jpg" alt="線上菜單 1" loading="lazy">
+        <img class="menu-img" src="menu2.jpg" alt="線上菜單 2" loading="lazy">
+        <img class="menu-img" src="menu3.jpg" alt="線上菜單 3" loading="lazy">
+    </div>
+
+    <!-- 頁尾店名標示，增添專業感 -->
+    <div class="footer-text">© 美味小吃店 All Rights Reserved.</div>
+
+</body>
+</html>
