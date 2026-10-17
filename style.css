@@ -1,13 +1,12 @@
 
-@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
-* {
-	font-family: 'Noto Sans TC';
-}
+/*@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+@import url("https://font.emtech.cc/css/:font?weight=:weight&words=:words");
+@import url("https://font.emtech.cc/css/GenKiMinTW?weight=:700");
+
 html{
-	font-family: Noto Sans TC, Arial,sans-serif,微軟正黑體;
+	font-family: "GenKiMinTW", PMingLiU;
 }
 body {
-	font-family:Microsoft Yahei; 
 	font-size: 20px; 
 	display: relative;
 	margin:10px;
@@ -15,7 +14,7 @@ body {
 	color:#0b0b0b;
 }
 h3{
-	font-family:Garamond, serif;
+	/*font-family:Garamond, serif;*/
 	text-align:center;
 	font-size: 30px; 
 }
@@ -60,6 +59,7 @@ nav{
 	margin-left:auto; margin-right:auto; background-color:#c1af7f;*/
 	position: relative;
     z-index: 1;
+	padding:10px;
 }
 nav a {
 	width:90px;
@@ -69,6 +69,7 @@ nav a {
 	font-size: 10px;
 	display:inline-block;
 	box-shadow: 1px 1px 3px grey;
+	
 }
 ul {
   text-align: center;
