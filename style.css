@@ -8,7 +8,8 @@ html{
 	
 }
 body {
-	font-family: "GenKiMinTW", PMingLiU;
+	/*font-family: "GenKiMinTW", PMingLiU;*/
+	font-family: "GenKiMinTW", "Noto Serif TC", "Songti TC", "Apple LiSung", PMingLiU, serif;
 	/*font-family: "GenKiMinTW", "Songti TC", "Noto Serif TC", serif;*/
 	display: relative;
 	margin:8px;
