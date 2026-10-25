@@ -1,12 +1,8 @@
 
 /*@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
-/*@import url("https://font.emtech.cc/css/GenKiMinTW");*/
+@import url("https://font.emtech.cc/css/GenKiMinTW");
 /*@import url("https://emtech.cc");*/
-@font-face {
-  font-family: 'GenKiMinTW';
-  src: url('path/to/GenKiMinTW.woff2') format('woff2'); /* 建議使用 woff2 格式 */
-  font-display: swap;
-}
+
 
 html{
 	
