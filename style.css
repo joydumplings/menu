@@ -4,9 +4,10 @@
 /*@import url("https://emtech.cc");*/
 
 html{
-	font-family: "GenKiMinTW", PMingLiU;
+	
 }
 body {
+	font-family: "GenKiMinTW", PMingLiU;
 	display: relative;
 	margin:8px;
 	background-color:#f7efe1;
@@ -24,7 +25,7 @@ h3{
 	width:300px;
 }
 h3 a{
-	font-weight: 700 !important;
+	font-weight: 700;
 	color:#0b0b0b;
 	text-decoration: none;
 }
