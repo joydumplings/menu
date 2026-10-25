@@ -1,9 +1,10 @@
 
 /*@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
-@import url("https://font.emtech.cc/css/GenKiMinTW");
+/*@import url("https://font.emtech.cc/css/GenKiMinTW");*/
+@import url("https://emtech.cc");
 
 html{
-	font-family: "GenKiMinTW", PMingLiU;
+	font-family: "GenKiMinTW", "PMingLiU", serif;
 }
 body {
 	display: relative;
@@ -23,8 +24,10 @@ h3{
 	width:300px;
 }
 h3 a{
-	font-family: "GenKiMinTW", "PMingLiU", serif;
+	font-family: "GenKiMinTW", "PMingLiU", serif !important;
+	font-weight: 700 !important;
 	color:#0b0b0b;
+	text-decoration: none;
 }
 
 .head-img{
